@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/loupeccassandra/Desktop/Data_Engineering/TP_MR/src/main/scala/TP_MR.scala:92:74: not found: value emp[0m
+[0m[[0m[31merror[0m] [0m[0m  def salarySum(employees: List[Employee]): Double = employees.map(t => (emp.name, emp.salary)).toMap.foldLeft(0.0)(_+_._2)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/loupeccassandra/Desktop/Data_Engineering/TP_MR/src/main/scala/TP_MR.scala:92:84: not found: value emp[0m
+[0m[[0m[31merror[0m] [0m[0m  def salarySum(employees: List[Employee]): Double = employees.map(t => (emp.name, emp.salary)).toMap.foldLeft(0.0)(_+_._2)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
