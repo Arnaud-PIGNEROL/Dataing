@@ -1,6 +1,15 @@
+package runtime
+
+import drone.droneReport
+import java.text.SimpleDateFormat
+import java.util.Calendar
+
 object Main {
   def main(args: Array[String]): Unit = {
     println("Hello, world!")
+
+    val format = new SimpleDateFormat("d-M-y hh:mm a")
+    println(format.format(Calendar.getInstance().getTime()))
 
     //case class droneReport (id:String, lattitude:Int, longitude:Int, name_citizen:String, max_battery:Int, current_battery:Int, report:String)
     var Report1 = droneReport("01", 10, 20, "Arnaud", 30, 15, "")
