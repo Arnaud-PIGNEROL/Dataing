@@ -12,6 +12,7 @@
 
 
 # 4) Peaceland has likely forgotten some technical information in the report sent by the drone. In the future this information could help Peaceland make its peacewatchers much more efficient. Which information?
-## We could add the current battery, to know when a peacewatcher will run out of electricity.
+## We could add the current battery, to know when a peacewatcher will run out of electricity. We can also add the report hour in case the peacemaker officers want to find where a particular person at a specific time.
+
 
 
