@@ -1,13 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0mD:\efrei\cours\s8\Data engineer\Projet\Dataing\Project\src\main\scala\drone.scala:3:3: not found: value int[0m
-[0m[[0m[31merror[0m] [0m[0m  int id;[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
-[0m[[0m[31merror[0m] [0m[0mD:\efrei\cours\s8\Data engineer\Projet\Dataing\Project\src\main\scala\drone.scala:3:7: postfix operator id needs to be enabled[0m
-[0m[[0m[31merror[0m] [0m[0mby making the implicit value scala.language.postfixOps visible.[0m
-[0m[[0m[31merror[0m] [0m[0m----[0m
-[0m[[0m[31merror[0m] [0m[0mThis can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
-[0m[[0m[31merror[0m] [0m[0mor by setting the compiler option -language:postfixOps.[0m
-[0m[[0m[31merror[0m] [0m[0mSee the Scaladoc for value scala.language.postfixOps for a discussion[0m
-[0m[[0m[31merror[0m] [0m[0mwhy the feature needs to be explicitly enabled.[0m
-[0m[[0m[31merror[0m] [0m[0m  int id;[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Louis\Documents\GitHub\Dataing\Project\src\main\scala\Main.scala:3:8: object drone is not a member of package drone[0m
+[0m[[0m[31merror[0m] [0m[0mimport drone.drone[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Louis\Documents\GitHub\Dataing\Project\src\main\scala\Main.scala:20:19: not found: value droneReport[0m
+[0m[[0m[31merror[0m] [0m[0m    var Report1 = droneReport("01", 10, 20, "Arnaud", 30, 15, "")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Louis\Documents\GitHub\Dataing\Project\src\main\scala\Main.scala:24:19: not found: value droneReport[0m
+[0m[[0m[31merror[0m] [0m[0m    var Report2 = droneReport("02", 30, 85, "Louis", 30, 5, "")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Louis\Documents\GitHub\Dataing\Project\src\main\scala\Main.scala:28:19: not found: value droneReport[0m
+[0m[[0m[31merror[0m] [0m[0m    var Report3 = droneReport("03", 5, 95, "Cassandra", 30, 28, "")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
