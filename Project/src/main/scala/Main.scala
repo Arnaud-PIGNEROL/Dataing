@@ -13,5 +13,7 @@ object Main {
     var Report1 = DroneReport("01", currentDate, 10, 20, List("Arnaud", "Aude", "Gabriel"), 30, 15, "")
     println(Report1.toString)
 
+    1.to(10).foreach(((i : Int) => println(DroneReport(i.toString, currentDate, 10, 20, List("Arnaud", "Aude", "Gabriel"), 30, 15, ""))))
+
   }
 }
