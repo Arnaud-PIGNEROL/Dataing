@@ -12,8 +12,6 @@ object Main {
     println("Hello, world!")
 
     //case class droneReport (id:String, lattitude:Int, longitude:Int, name_citizen:String, max_battery:Int, current_battery:Int, report:String)
-    var Report1 = DroneReport("01", currentDate, 10, 20, List("Arnaud", "Aude", "Gabriel"), 30, 15, "")
-    println(Report1.toString)
 
     1.to(10).foreach(((i : Int) => println(DroneReport(i.toString, currentDate, r.nextLong(300), r.nextLong(300), List("Arnaud", "Aude", "Gabriel"), 30, r.nextInt(30) + 1, ""))))
 
