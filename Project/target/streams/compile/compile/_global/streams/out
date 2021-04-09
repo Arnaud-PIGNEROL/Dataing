@@ -1,4 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0mD:\efrei\cours\s8\Data engineer\Projet\Dataing\Project\src\main\scala\Main.scala:16:56: not found: value str[0m
-[0m[[0m[31merror[0m] [0m[0m    0.to(10).foreach(((i : Int) => println(DroneReport(str(i), currentDate, 10, 20, List("Arnaud", "Aude", "Gabriel"), 30, 15, ""))))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mD:\efrei\cours\s8\Data engineer\Projet\Dataing\Project\src\main\scala\Main.scala:15:92: no arguments allowed for nullary method nextLong: ()Long[0m
+[0m[[0m[31merror[0m] [0m[0m    1.to(10).foreach(((i : Int) => println(DroneReport(i.toString, currentDate, r.nextLong(300), r.nextLong(300), List("Arnaud", "Cassandra", "Louis"), 30, r.nextInt(30) + 1, ""))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\efrei\cours\s8\Data engineer\Projet\Dataing\Project\src\main\scala\Main.scala:15:109: no arguments allowed for nullary method nextLong: ()Long[0m
+[0m[[0m[31merror[0m] [0m[0m    1.to(10).foreach(((i : Int) => println(DroneReport(i.toString, currentDate, r.nextLong(300), r.nextLong(300), List("Arnaud", "Cassandra", "Louis"), 30, r.nextInt(30) + 1, ""))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\efrei\cours\s8\Data engineer\Projet\Dataing\Project\src\main\scala\Main.scala:18:11: not found: value Person[0m
+[0m[[0m[31merror[0m] [0m[0m    print(Person().name)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

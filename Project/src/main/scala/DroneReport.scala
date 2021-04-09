@@ -1,1 +1,1 @@
-case class DroneReport (id:String, currentDate:String, lattitude:Long, longitude:Long, name_citizen:List[String], max_battery:Int, current_battery:Int, report:String)
+case class DroneReport (id:String, currentDate:String, lattitude:Long, longitude:Long, name_citizen:List[String], max_battery:Int, current_battery:Int)

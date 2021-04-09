@@ -11,7 +11,7 @@ object Main {
 
     println("Hello, world!")
 
-    1.to(10).foreach(((i : Int) => println(DroneReport(i.toString, currentDate, r.nextLong(300), r.nextLong(300), List("Arnaud", "Aude", "Gabriel"), 30, r.nextInt(30) + 1, ""))))
 
+    1.to(10).foreach(((i : Int) => println(DroneReport(i.toString, currentDate, r.nextLong(300), r.nextLong(300), List("Arnaud", "Cassandra", "Louis"), 30, r.nextInt(30) + 1))))
   }
 }
