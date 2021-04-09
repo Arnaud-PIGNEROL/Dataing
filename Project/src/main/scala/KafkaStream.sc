@@ -1,6 +1,7 @@
 import java.util.Properties;
 import org.apache.kafka.streams.StreamsConfig;
 
+
 val streams = new Properties();
 // Set a few key parameters
 streams.put(StreamsConfig.APPLICATION_ID_CONFIG, "Drone-application");
